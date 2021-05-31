@@ -1,0 +1,22 @@
+<div class="wrapper text-center">
+	<div>
+		<select id="medida_ini" name="medida_ini" class="custom-select btn-outline-light form-select-sm">
+			<option selected>De</option>
+			<option value="miligramos">Miligramos</option>
+			<option value="gramos">Gramos</option>
+			<option value="kilogramos">Kilogramos</option>
+			<option value="1/4 de kilo">1/4 de kilo</option>
+			<option value="1/2 kilo">1/2 kilo</option>
+		</select>
+	</div>
+	<div>                
+		<select id="medida_fin" name="medida_fin" class="custom-select btn-outline-light form-select-sm">
+			<option selected>a</option>
+			<option value="miligramos">Miligramos</option>
+			<option value="gramos">Gramos</option>
+			<option value="kilogramos">Kilogramos</option>
+			<option value="1/4 de kilo">1/4 de kilo</option>
+			<option value="1/2 kilo">1/2 kilo</option>
+		</select>
+	</div>
+</div>

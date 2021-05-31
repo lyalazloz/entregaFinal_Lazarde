@@ -1,0 +1,40 @@
+<div class="wrapper text-center">
+	<div>
+		<select id="medida_ini" name="medida_ini" class="custom-select btn-outline-light form-select-sm">
+			<option selected>De</option>
+			<option value="mililitros">Mililitros</option>
+			<option value="1/2 litro">1/2 litro</option>
+			<option value="litros">Litros</option>
+			<option value="1/4 de taza">1/4 de taza</option>
+			<option value="1/3 de taza">1/3 de taza</option>
+			<option value="2/3 de taza">2/3 de taza</option>
+			<option value="1/2 taza">1/2 taza</option>
+			<option value="3/4 de taza">3/4 de taza</option>
+			<option value="tazas">Tazas</option>
+			<option value="1/4 cucharadita">1/4 cucharadita</option>
+			<option value="1/2 cucharadita">1/2 cucharadita</option>
+			<option value="cucharaditas">Cucharaditas</option>
+			<option value="1/2 cucharada">1/2 cucharada</option> 
+			<option value="cucharadas">Cucharadas</option>
+		</select>
+	</div>
+	<div>                
+		<select id="medida_fin" name="medida_fin" class="custom-select btn-outline-light form-select-sm">
+			<option selected>a</option>
+			<option value="mililitros">Mililitros</option>
+			<option value="1/2 litro">1/2 litro</option>
+			<option value="litros">Litros</option>
+			<option value="1/4 de taza">1/4 de taza</option>
+			<option value="1/3 de taza">1/3 de taza</option>
+			<option value="2/3 de taza">2/3 de taza</option>
+			<option value="1/2 taza">1/2 taza</option>
+			<option value="3/4 de taza">3/4 de taza</option>
+			<option value="tazas">Tazas</option>
+			<option value="1/4 cucharadita">1/4 cucharadita</option>
+			<option value="1/2 cucharadita">1/2 cucharadita</option>
+			<option value="cucharaditas">Cucharaditas</option>
+			<option value="1/2 cucharada">1/2 cucharada</option> 
+			<option value="cucharadas">Cucharadas</option>
+		</select>
+	</div>
+</div>

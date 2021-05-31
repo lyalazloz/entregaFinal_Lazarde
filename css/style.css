@@ -1,0 +1,188 @@
+/* toda la página */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* el "body" */
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 50%;
+    margin: auto;
+    background-image: url(/img/witch-cauldron.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: azure;
+    background-attachment: fixed;
+}
+
+/*saludo*/
+#saludo {
+    
+    font-size: 48px;
+    display: block;
+    margin: auto;
+    padding: 8px;
+    text-align: center; 
+
+}
+
+/* texto superior */
+#titulo {
+    text-align: center;
+    font-size: 24px;
+    color: white;    
+    border-radius: 3px;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto;
+}
+
+#encabezado {
+    display: block;
+    margin: auto;
+    padding: 5px;
+    text-align: center;   
+}
+
+/* contenedor principal */
+#bg-caldero {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(70, 219, 219, 0.1);
+    box-shadow: 0px -10px 50px rgba(177, 166, 166, 0.5);
+    border-top: 2px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    background-clip: padding-box;
+    backdrop-filter: blur(5px);
+    line-height: 1.5;
+    padding: 24px 0px;
+    margin: 20px auto;
+       
+}
+
+/* contenedores de los selectores y botones */
+.wrapper {
+    display: flex;
+    color: white;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+.wrapper > div {
+    font-size: 4vh;
+    margin: .1em;
+    padding: .3em;
+    border-radius: 3px;
+    flex: 1;
+}
+
+/* selectores */
+select{
+    border-radius: 5px;
+    height: 38px;
+    color: white;
+    background-color: transparent;
+    
+}
+
+.form-control{
+    background-color: transparent;
+}
+
+
+/* resultado del cálculo */
+#resultado h3 {
+    justify-content: space-evenly;
+    color: white;
+    padding: 3px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+footer{
+    position: absolute;
+    bottom: 15px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.copyright {
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin-bottom: 15px;
+    margin: auto;
+    font-size: 0.8rem;
+    font-weight: 300;
+    line-height: 1rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        max-width: 768px;
+        
+        margin: 0%;
+        
+    }
+    
+    #bg-caldero {
+        border: 0px;        
+        display: block;
+        border-bottom: 1px;
+        text-align: center;
+        padding: 5px;
+        width: 100vw;
+        margin: auto;
+        overflow-x: hidden;
+    }
+    
+    h1, h2, #titulo {
+        display: none ;
+    }
+
+    p {
+        width: 100vw;
+    }
+
+    .wrapper {
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    #saludo {
+        padding: 5px;
+    }
+    .wrapper > div {
+        padding: 5px;
+    }
+
+    select, .btn, #input, option {
+        display: block;
+        width: 95vw;
+                
+    }
+    option {
+        font-size: 30px;
+        width: 90vw;
+
+        
+    }
+    
+
+
+    
+
+}
+

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="shortcut icon" href="../assets/img/ok-tributario-fav-icon.ico" type="image/x-icon">
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  
+  <!-- icono del footer -->
+  <script src="https://kit.fontawesome.com/f5f8e329f7.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="./css/style.css">
+
+  <title>PolyJuice Potion</title>
+</head>
+  <body>
+
+    <div id="saludo" class="container"></div>
+    <div id="titulo" class="container"></div>
+
+    <div class="container">
+      <div id="bg-caldero" class="row">
+        <p class="lead text-center">¿Con cual unidad deseas trabajar?</p>
+
+          <div class="wrapper text-center">
+              <div>
+                <a href="#volumen" class="active btn btn-outline-light">Volumen</a>
+              </div>
+              <div>
+               <a href="#peso" class="active btn btn-outline-light">Peso</a>
+              </div>
+          </div>  
+
+          <div class="wrapper text-center">
+            <div>                
+                <input id="input" type="Float" class="form-control btn-outline-light form-input-sm" aria-label="Default" aria-describedby="inputGroup-sizing-default" placeholder="Nº a Convertir">
+            </div>
+          </div>
+
+         <div class="wrapper text-center">
+            <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main" id="mainSection">                
+            </div>
+          </div>
+
+        <div class="wrapper text-center">
+          <div>
+            <button id="btnConvertir" type="button" class="btn btn-outline-light">Convertir</button>
+          </div>
+        </div> 
+        <div id="resultado"></div>
+      </div>
+    </div>
+        
+    <footer class="container d-none d-md-block">
+      <p class="copyright"> Diseñado con <i class="fa fa-heart"></i> por @Lyalazloz
+      </p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script type="module" src="./js/apps.js"></script>
+    <script src="index.js"></script>
+    
+</body>
+</html>
